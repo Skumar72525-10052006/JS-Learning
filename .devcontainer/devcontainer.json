@@ -1,0 +1,22 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight",
+				"aaron-bond.better-comments"
+			],
+			"settings": {
+				"editor.fontSize": 20,
+				"terminal.integrated.fontSize": 14,
+				"editor.wordWrap": "on"
+			}
+			
+		}
+		
+	 }
+
+
+}
