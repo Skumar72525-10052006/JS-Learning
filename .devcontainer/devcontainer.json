@@ -6,54 +6,121 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"aaron-bond.better-comments"
+				"aaron-bond.better-comments",
+				"parthr2031.colorful-comments"
 			],
 			"better-comments.tags": [
-			{
-				"tag": "!",
-				"color": "#FF2D00",
-				"strikethrough": false,
-				"underline": false,
-				"backgroundColor": "transparent",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"tag": "?",
-				"color": "#3498DB",
-				"strikethrough": false,
-				"underline": false,
-				"backgroundColor": "transparent",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"tag": "//",
-				"color": "#474747",
-				"strikethrough": true,
-				"underline": false,
-				"backgroundColor": "transparent",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"tag": "todo",
-				"color": "#FF8C00",
-				"strikethrough": false,
-				"underline": false,
-				"backgroundColor": "transparent",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"tag": "*",
-				"color": "#98C379",
-				"strikethrough": false,
-				"underline": false,
-				"backgroundColor": "transparent",
-				"bold": false,
-				"italic": false
-			}
+				{
+					"tag": "!",
+					"color": "#FF2D00",
+					"strikethrough": false,
+					"underline": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "?",
+					"color": "#3498DB",
+					"strikethrough": false,
+					"underline": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "//",
+					"color": "#474747",
+					"strikethrough": true,
+					"underline": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "todo",
+					"color": "#FF8C00",
+					"strikethrough": false,
+					"underline": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "*",
+					"color": "#98C379",
+					"strikethrough": false,
+					"underline": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				}
+			],
+			"colorful-comments.tags": [
+				{
+					"tag": "!",
+					"color": "#FF2D00",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "?",
+					"color": "#0076FF",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "//",
+					"color": "#474747",
+					"strikethrough": true,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "^",
+					"color": "#EAF622",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "*",
+					"color": "#28FF00",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "&", 
+					"color": "#FF06A0",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "~",
+					"color": "#BE00FF",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"tag": "todo",
+					"color": "#FF8C00",
+					"strikethrough": false,
+					"backgroundColor": "transparent",
+					"bold": false,
+					"italic": false
+				}
 			],
 			"settings": {
 				"editor.fontSize": 20,
