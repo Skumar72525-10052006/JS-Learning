@@ -125,6 +125,7 @@
 			],
 			"settings": {
 				"editor.fontSize": 20,
+				"tab.size": 2,
 				"terminal.integrated.fontSize": 14,
 				"editor.wordWrap": "on"
 			}
