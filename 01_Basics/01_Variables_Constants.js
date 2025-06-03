@@ -1,31 +1,53 @@
+// ? What Are Variables ?
+
+// !--> Variables Are Like Containers Which Holds Data.
+
 // *<----------Variables and Constants----------->
+
 /*
+
     ^ Earlier JS Supports Declaration Of Variables With Only var keyword.
+
     ~ var means redeclare and reinitialize again and agin.
+
     ! But using var for Variable Declaration Has Some Problems. So ES6 Introduced In 2015 with two new way by which variables can be declared.
+
     & They Are let,const.
+
     ~ let means we can't redeclare the same variable again but we can reinitialize the value of the variable again & again.
     ~ const means constant value in which we can't redclare and also reinitialize.
+
 */
+
 // *var has Global Scope whereas let,const has Local Scope. Don't Look On These Now It Will Be Discussed Later.
+
 // & <---var keyword---->
+
 //* Here I Declared A Variable userName using var keyword as we know using var we can Redeclare and Reinitialize again and again.
+
 //^ Let's see the Output
 
-
-var userName = "Sonu Kumar"
-console.log(userName)   //* Output Will Be Sonu Kumar
-
 /*
-*|----->Now After Redeclare and Reinitialize Lets Check The Output<------|
-^ var userName = "Shubham Kumar"
-^ console.log(userName) //~ Here The Output Will Be Shubham Kumar
+    * var userName = "Sonu Kumar"
+    * console.log(userName)   // Output Will Be Sonu Kumar
 */
 
+/*
+
+*|----->Now After Redeclare and Reinitialize Lets Check The Output<------|
+
+^ var userName = "Shubham Kumar"
+
+^ console.log(userName) //~ Here The Output Will Be Shubham Kumar
+
+*/
 
 // &<--------- let keyword ----------->
-let age = 17
-console.log(age) // * Output --> 17
+
+/*
+    & let age = 17
+    & console.log(age) // Output --> 17
+*/
 
 /* 
     ! We Can't Redeclare That Variable Which Is Declared With let keyword. For Example :- 
@@ -36,8 +58,11 @@ console.log(age) // * Output --> 17
 */
 
 // & <------ const keyword ------->
-const date_of_birth = 19072007
-console.log(date_of_birth) //* 19072007
+
+/*
+    ^ const date_of_birth = 19072007
+    ^ console.log(date_of_birth) // 19072007
+*/
 
 /*
     ! We Can't Redclare and Reassign Variable Which Declared With const keyword.
@@ -60,7 +85,12 @@ console.log(date_of_birth) //* 19072007
     ~ └─────────┴──────────────┘
     ~ If I Use --->console.table([userName,age,date_of_birth])
 */
-
+var userName = "Sonu Kumar"
+console.log(userName) 
+let age = 17
+console.log(age)
+const date_of_birth = 19072007
+console.log(date_of_birth)
 console.table([userName,age,date_of_birth])
 
 
