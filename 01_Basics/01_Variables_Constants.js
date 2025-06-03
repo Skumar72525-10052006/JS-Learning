@@ -72,6 +72,7 @@
     ! console.log(date_of_birth) ----> TypeError: Assignment to constant variable.
 */
 
+// todo Prefer Not To Use var Keyword.
 
 // *<----- Extra Tip ----->
 // ^ Here We Are Using console.log() In Each & Every Line to get the Output In The Terminal Which Makes It Slighter Complex and If We Want Output Using A Single Line Of Code. But Using console.table() We Can Get Result In A Tabular Format As Many As Paramter Passed. In The Format Of :- 
