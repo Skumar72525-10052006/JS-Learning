@@ -19,7 +19,7 @@
 
 */
 
-// *var has Global Scope whereas let,const has Local Scope. Don't Look On These Now It Will Be Discussed Later.
+// * var has Global Scope whereas let,const has Local Scope. Don't Look On These Now It Will Be Discussed Later.
 
 // & <---var keyword---->
 
