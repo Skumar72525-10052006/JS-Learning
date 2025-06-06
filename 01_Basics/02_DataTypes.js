@@ -101,5 +101,48 @@
 
 */
 
+// * Primitive Data Types
+
+let num = 2.525;
+console.log(typeof num);
+
+let fname = "Sonu"
+let mname = 'Kumar'
+let lname = `Mandal`
+console.log(typeof fname , typeof mname , typeof lname);
+
+let bank_bal;
+console.log(typeof bank_bal);
+
+const isLoggedIn = true;
+console.log(typeof isLoggedIn);
+
+let bank_balance = null;
+console.log(bank_balance);
+
+let big = 10052006n;
+console.log(typeof big);
+
+let sym = Symbol("Hello");
+console.log(typeof sym);
+
+// * Non-Primitive Data Types
+
+let car = new Object();
+car.name = "Toyota";
+car.model = "Corolla";
+car.year = 2020;
+console.log(car);
+console.log(typeof car);
+
+let fruits = new Array("Apple","Banana","Cherry","Mango");
+console.log(fruits);
+console.log(typeof fruits)
+
+
+
+
+
+
 
 
