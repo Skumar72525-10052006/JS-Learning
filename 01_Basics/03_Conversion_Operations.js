@@ -193,3 +193,29 @@
 
 */
 
+// * Operations On Strings With Numbers.
+
+/*
+
+  ^ console.log("1"+2+3);  ==>123
+  ^ -> As 1st Operand Is String So It Will Go Accordingly By Concatenating Each Other.
+
+  & console.log(1+2+"3");  ==>33
+  & -> As 1st Operand Is Number So It Will Go Accordingly By Adding First 2 Operands Then Concatenate With The 3rd Operand.
+
+  ~ console.log(1+"2"+3);  ==>123
+  ~ -> As 1st Operand Is Number & 2nd Operand Is String So It Will Concate Itself Then The Result Will Be Concate With 3rd Operand.
+
+*/
+
+// ! Operations On Booleans
+
+/*
+
+  * console.log(+true);  ==> 1
+  * -> As Boolean Is First Converted Into Number And It Will The Value Corresponding To The Value Of Boolean.
+
+  todo console.log(+""); ==> 0
+  todo -> As Boolean Is First Converted Into Number And It Will The Value Corresponding To The Value Of Boolean.
+  
+*/
